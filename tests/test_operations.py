@@ -1,9 +1,7 @@
 import unittest
 from unittest.mock import patch
-from utils.operations import Transaction, display_last_transactions
-import sys, os
-sys.path.insert(0, os.path.join(os.getcwd(), '..'))
-print(os.path)
+from main import Transaction, display_last_transactions
+
 
 class TestTransactions(unittest.TestCase):
 
